@@ -15,6 +15,7 @@ import { getFullEmployeeById } from "../../Funksj_stotte/getFullEmpUpdatet.js";
 import { handleUserRoleChange } from "../../Funksj_stotte/roleManagerInUpdate.js";
 //middleware admin rute skal settes i router 
 import { authenticateToken, requireAdmin } from "../../AuthenticateUsers/AuthMiddleware.js";
+import { pool } from '../../config.js';
 
 const router = Router();
 dotenv.config();

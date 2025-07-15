@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import pool from "../../config/db.js";
 import axios from "axios";
 import bcrypt from 'bcrypt';
+import { pool } from '../../config.js';
 // Hvis ikke genesys brukes det mockdata
 import {getMockGenesysEmployees}from '../../Funksj_stotte/mockGenesysData.js';
 //Token for API genesys

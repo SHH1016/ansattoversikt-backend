@@ -1,6 +1,7 @@
 import { Router } from "express";
 import dotenv from "dotenv";
 import pool from "../../config/db.js";
+import { pool } from '../../config.js';
 //middleware
 import { authenticateToken, requireTeamLeaderOrAdmin } from "../../AuthenticateUsers/AuthMiddleware.js";
 

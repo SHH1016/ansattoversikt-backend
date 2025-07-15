@@ -1,5 +1,6 @@
 import dotenv from 'dotenv';
 import pool from '../config/db.js'; // Justér sti hvis nødvendig
+import { pool } from '../../config.js';
 import bcrypt from 'bcrypt';
 import axios from 'axios';
 import { getOAuthToken } from '../apiGenesysAuth/authTokenGenesys.js';
