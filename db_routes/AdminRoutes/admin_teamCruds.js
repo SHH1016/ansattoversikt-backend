@@ -1,7 +1,7 @@
 // rutere for Admin cruds på team
 import {Router} from 'express';
 import pool from   '../../config/db.js'
-import { pool } from '../../config.js';
+//import { pool } from '../../config.js';
 //middleware admin
 import { authenticateToken, requireAdmin } from '../../AuthenticateUsers/AuthMiddleware.js';
 
