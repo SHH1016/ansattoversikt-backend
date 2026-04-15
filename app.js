@@ -27,8 +27,6 @@ app.use(cors({
     credentials: true
   }));
 
-  FRONTEND_ORIGIN="https://employeeoverview.netlify.app/";
-
 
 app.use(express.json());
 app.use(cookieParser());
